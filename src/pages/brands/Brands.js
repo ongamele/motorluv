@@ -27,7 +27,6 @@ import { FETCH_POSTS_QUERY } from '../../util/graphql';
 import Widget from '../../components/Widget';
 
 import Calendar from './components/calendar/Calendar';
-import Map from './components/am4chartMap/am4chartMap';
 import Rickshaw from './components/rickshaw/Rickshaw';
 
 
