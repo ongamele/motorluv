@@ -76,9 +76,9 @@ function Messenger({ own }) {
     alert(senderId + ' ' + receiverId);
   };
 
-  /*const [updateMessageStatus, { data, loading, error }] = useMutation(
+   const [updateMessageStatus, { data, loading, error }] = useMutation(
     UPDATE_MESSAGE_STATUS_MUTATION
-  );*/
+  );
 
   if (loading) return 'Submitting...';
   if (error) return `Submission error! ${error.message}`;
