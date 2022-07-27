@@ -30,7 +30,6 @@ import Calendar from './components/calendar/Calendar';
 import Map from './components/am4chartMap/am4chartMap';
 import Rickshaw from './components/rickshaw/Rickshaw';
 
-import AnimateNumber from 'react-animated-number';
 
 import s from './Dashboard.module.scss';
 import slayout from '../../components/Layout/Layout.module.scss';
