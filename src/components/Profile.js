@@ -2,7 +2,6 @@ import React from 'react';
 import { Progress } from 'reactstrap';
 import gql from 'graphql-tag';
 import Widget from './Widget';
-import AnimateNumber from 'react-animated-number';
 import Image from 'react-bootstrap/Image';
 import logo2 from '../pages/dashboard/logo2.png';
 
