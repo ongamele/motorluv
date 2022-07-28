@@ -17,7 +17,7 @@ import '../App.css';
 import { AuthProvider, AuthContext } from '../context/auth';
 import AuthRoute from '../util/AuthRoute';
 
-import '../styles/theme.scss';
+//import '../styles/theme.scss';
 import Dashboard from '../pages/dashboard';
 import Brands from '../pages/brands/Brands';
 import Policy from '../pages/policy/Policy';
