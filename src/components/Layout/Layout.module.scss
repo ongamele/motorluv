@@ -1,10 +1,10 @@
-@import '../../styles/app';
+
 
 .root {
   height: 100%;
   position: relative;
   left: 0;
-  transition: left $sidebar-transition-time ease-in-out;
+  transition: left 0.3s ease-in-out;
   background: #f7f7f7;
 }
 
@@ -12,11 +12,11 @@
   position: relative;
   min-height: 100vh;
   display: flex;
-  margin-left: $sidebar-width-open;
+  margin-left: 200px;
   flex-direction: column;
   left: 0;
   right: 0;
-  transition: left $sidebar-transition-time ease-in-out;
+  transition: left 0.3s ease-in-out;
 
   @media print {
     margin: 0;
@@ -26,22 +26,13 @@
     margin-left: 0;
     left: 0;
   }
-
-  :global(.sidebar-right) & {
-    margin-left: 0;
-    margin-right: $sidebar-width-open;
-  }
-
-  :global(.sidebar-hide) & {
-    margin: 0;
-  }
 }
 
 .content {
   position: relative;
   flex-grow: 1;
   // 20px for footer height
-  padding: 25px $content-padding ($content-padding + 20px);
+  padding: 25px 40px (40px + 20px);
 
   @media (max-width: breakpoint-max(sm)) {
     padding: 20px 15px;
@@ -56,5 +47,5 @@
 .contentFooter {
   position: absolute;
   bottom: 15px;
-  color: $text-muted;
+  color: #c1ccd3;
 }
