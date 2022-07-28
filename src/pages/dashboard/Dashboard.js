@@ -63,7 +63,7 @@ function Dashboard() {
               </BreadcrumbItem>
             </Breadcrumb>
           </div>
-          <div className={s.root} style={{ marginTop: '34px' }}>
+          <div  style={{ marginTop: '34px' }}>
             <h1 className="page-title"></h1>
 
             <Row>
